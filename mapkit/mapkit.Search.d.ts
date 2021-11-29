@@ -193,6 +193,29 @@ declare namespace mapkit {
      * The coordinate of the result, provided when it corresponds to a single place.
      */
     coordinate: mapkit.Coordinate;
+
+
+    type?: AddressType;
+    placeType?: AddressType;
+
+    administrativeArea?: string;
+    subAdministrativeArea?: string;
+    administrativeAreaCode?: string;
+    locality?: string;
+    postCode?: string;
+    subLocality?: string;
+    thoroughfare?: string;
+    subThoroughfare?: string;
+    fullThoroughfare?: string;
+    dependentLocalities?: string[];
+    timezone?: string;
+    timezoneSecondsFromGmt?: number;
+
+  }
+
+  enum AddressType {
+    address = 'ADDRESS',
+    business = 'BUSINESS'
   }
 
   interface SearchAutocompleteOptions {
