@@ -195,8 +195,8 @@ declare namespace mapkit {
     coordinate: mapkit.Coordinate;
 
 
-    type?: AddressType;
-    placeType?: AddressType;
+    type?: string;
+    placeType?: string;
 
     administrativeArea?: string;
     subAdministrativeArea?: string;
@@ -213,10 +213,10 @@ declare namespace mapkit {
 
   }
 
-  enum AddressType {
-    address = 'ADDRESS',
-    business = 'BUSINESS'
-  }
+  // enum AddressType {
+  //   address = 'ADDRESS',
+  //   business = 'BUSINESS'
+  // }
 
   interface SearchAutocompleteOptions {
     language: string;
