@@ -192,7 +192,7 @@ declare namespace mapkit {
     /**
      * The coordinate of the result, provided when it corresponds to a single place.
      */
-    coordinate: mapkit.Coordinate;
+    location: mapkit.Coordinate;
 
 
     administrativeArea?: string;
