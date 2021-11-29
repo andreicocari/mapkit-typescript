@@ -195,9 +195,6 @@ declare namespace mapkit {
     coordinate: mapkit.Coordinate;
 
 
-    type?: string;
-    placeType?: string;
-
     administrativeArea?: string;
     subAdministrativeArea?: string;
     administrativeAreaCode?: string;
